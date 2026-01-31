@@ -6,6 +6,7 @@
     <title>Document</title>
     <style>
         body{
+            display: flex;
             background-color: rgb(175, 150, 150);
         }
         .leftBox{
@@ -26,23 +27,35 @@
         }
         .rightBox{
             display: flex;
-            background-color: rgb(36, 32, 32);
+            flex-direction: column;
+            background-color: rgb(94, 85, 85);
             padding : 18px;
-            margin : 24px;
+            margin : 12px;
             height : 70%;
             width : 50%
         }
         .dateBox{
-           padding: 18px;
+           position: relative;
+           display: flex;
+           padding: 12px;
            margin: 16px;
         }
         .dateCol{
+            display: flex;
+            flex-direction: column;
+            width: 535px;
             justify-content: center;
             align-items: center;
-            background-color: black;
+            background-color: rgb(43, 29, 29);
             color: white;
             font-size: 18px;
             font-weight: 500;
+        }
+        .datee{
+            height: 3px;
+        }
+        .month{
+            font-size: 22px;
         }
         .eventCol{
             background-color: white;
@@ -73,31 +86,48 @@
     </div>
     <div class="rightBox">
         <div class="dateBox">
-            <span class="dateCol">15 March</span>
-            <span class="eventCol">
+            <div class="dateCol">
+                <h1 class="datee">
+                    15
+                </h1>
+                <p class="month">March</p>
+            </div>
+            <div class="eventCol">
                         <h1 class="eventHeader">Where is the Event Happening?</h1>
                         <p class="eventContent">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta dolores iste dignissimos porro dolor magni unde aliquam aut natus error! Numquam possimus debitis repellat deleniti magni ut incidunt placeat perspiciatis.</p>
                         <button class="detailBtn">View Details</button>
-            </span>
+            </div>
         </div>
         <div class="dateBox">
-            <span class="dateCol">27 May</span>
-            <span class="eventCol">
+            <div class="dateCol">
+                <h1 class="datee">
+                    27
+                </h1>
+                <p class="month">May</p>
+            </div>
+            <div class="eventCol">
                         <h1 class="eventHeader">Where is the Event Happening?</h1>
                         <p class="eventContent">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta dolores iste dignissimos porro dolor magni unde aliquam aut natus error! Numquam possimus debitis repellat deleniti magni ut incidunt placeat perspiciatis.</p>
                         <button class="detailBtn">View Details</button>
-            </span>
+            </div>
         </div>
         <div class="dateBox">
-            <h1 class="eventHeader">Where is the Event Happening?</h1>
-            <span class="dateCol">12 August</span>
-            <span class="eventCol">
+            <div class="dateCol">
+                <h1 class="datee">
+                    17
+                </h1>
+                <p class="month">June</p>
+            </div>
+            <div class="eventCol">
                         <h1 class="eventHeader">Where is the Event Happening?</h1>
                         <p class="eventContent">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta dolores iste dignissimos porro dolor magni unde aliquam aut natus error! Numquam possimus debitis repellat deleniti magni ut incidunt placeat perspiciatis.</p>
                         <button class="detailBtn">View Details</button>
-            </span>
+            </div>
         </div>
     </div>
     </body>
 </body>
 </html>
+
+//span - inline element(stays within the same line)
+//div - block-level element
