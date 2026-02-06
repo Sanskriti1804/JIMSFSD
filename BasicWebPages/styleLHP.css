@@ -30,6 +30,10 @@ body{
 }
 
 /* PROFILE CARD */
+#contentBox{
+    display: flex;
+    flex-direction: row;
+}
 
 #profileCard{
     border-radius: 15px;
@@ -69,7 +73,8 @@ body{
 /*STATS CARD*/
 #statsCard{
     border-radius: 15px;
-    height: 100px;
+    justify-content: space-between;
+    height: 80px;
     width : 250px;
     padding: 12px;
     background-color: white;
@@ -78,16 +83,36 @@ body{
     border-color: rgb(77, 75, 75);
 }
 
+.statsHeader{
+    font-weight: bold;
+}
+
+.statsLabel{
+    color: blue;
+    padding-left: 112px;
+}
+
 /*COLLECTION CARD*/
 #collectionCard{
     border-radius: 15px;
     height: 100px;
     width : 250px;
-    padding: 12px;
+    padding: 14px;
     background-color: white;
     margin: 24px;
     border: 1px;
     border-color: rgb(77, 75, 75);
+}
+
+.collection-items{
+    display: flex;
+    flex-direction: row;
+    margin: 7px;
+}
+
+.collection-label{
+    padding-left: 34px;
+    font-weight: 600;
 }
 
 /*FEED BOX*/
