@@ -121,17 +121,38 @@ body{
     border-radius: 2px;
     height: 100px;
     width : 550px;
-    padding: 12px;
+    padding: 16px;
     background-color: white;
     margin: 24px;
     border: 1px;
     border-color: rgb(77, 75, 75);
 }
 
-#postTopBar{
+#post-TopBar{
+    display: flex;
+    flex-direction: row;
     border: 1px;
     border-color: rgb(100, 94, 94);
     border-radius: 50px;
+}
+
+#post-BottomBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px;
+    border-color: rgb(100, 94, 94);
+    border-radius: 50px;
+}
+
+#postBar{
+    font-size: large;
+}
+
+.post-label{
+    font-size: medium;
+    font-weight: 500;
+    padding-right: 36px;
 }
 
 /*FEED CARD*/
