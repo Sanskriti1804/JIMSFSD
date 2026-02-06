@@ -212,3 +212,51 @@ body{
     font-size: 14px;
     color: blue;
 }
+
+/*NEWS BOX*/
+#newsCard{
+    border-radius: 15px;
+    height: 350px;
+    width : 250px;
+    padding: 12px;
+    background-color: white;
+    margin: 24px;
+    border: 1px;
+    border-color: rgb(77, 75, 75);
+}
+
+#newsHeader{
+    font-size: 28px;
+    justify-content: space-between;
+    padding-bottom: 8px;
+}
+
+#topStoriesHeader{
+    color: gray;
+    padding-bottom: 8px;
+}
+
+#news-col{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.stories-header{
+    font-weight: 500;
+}
+
+.stories-label{
+    color: gray;
+    font-size: 14px;
+}
+
+#label{
+    padding-top: 18px;
+}
+
+
+#BrainyBar{
+    display: flex;
+    flex-direction: row;
+}
