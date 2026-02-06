@@ -1,0 +1,262 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+#contentBox{
+    background-color: rgb(231, 224, 215);
+}
+
+/* NAV BAR */
+#navBox{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    height: 70px;
+}
+#navBar{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-link{
+    display: flex;
+    gap: 6px;
+}
+
+/* PROFILE CARD */
+#contentBox{
+    display: flex;
+    flex-direction: row;
+}
+
+#profileCard{
+    border-radius: 15px;
+    height: 250px;
+    width : 250px;
+    padding: 12px;
+    background-color: white;
+    margin: 24px;
+    border: 1px;
+    border-color: rgb(77, 75, 75);
+}
+
+#location{
+    color: rgb(167, 161, 161);
+}
+
+.profile_label{
+    font-weight: bold;
+}
+
+/*PROMO CARD*/
+#premiumPromoCard{
+    border-radius: 15px;
+    height: 100px;
+    width : 250px;
+    padding: 12px;
+    background-color: white;
+    margin: 24px;
+    border: 1px;
+    border-color: rgb(77, 75, 75);
+}
+
+#premiumHeading{
+    color: rgb(167, 161, 161);
+}
+
+/*STATS CARD*/
+#statsCard{
+    border-radius: 15px;
+    justify-content: space-between;
+    height: 80px;
+    width : 250px;
+    padding: 12px;
+    background-color: white;
+    margin: 24px;
+    border: 1px;
+    border-color: rgb(77, 75, 75);
+}
+
+.statsHeader{
+    font-weight: bold;
+}
+
+.statsLabel{
+    color: blue;
+    padding-left: 112px;
+}
+
+/*COLLECTION CARD*/
+#collectionCard{
+    border-radius: 15px;
+    height: 100px;
+    width : 250px;
+    padding: 14px;
+    background-color: white;
+    margin: 24px;
+    border: 1px;
+    border-color: rgb(77, 75, 75);
+}
+
+.collection-items{
+    display: flex;
+    flex-direction: row;
+    margin: 7px;
+}
+
+.collection-label{
+    padding-left: 34px;
+    font-weight: 600;
+}
+
+/*FEED BOX*/
+/*POST CARD*/
+#postCard{
+    border-radius: 2px;
+    height: 100px;
+    width : 550px;
+    padding: 16px;
+    background-color: white;
+    margin: 24px;
+    border: 1px;
+    border-color: rgb(77, 75, 75);
+}
+
+#post-TopBar{
+    display: flex;
+    flex-direction: row;
+    border: 1px;
+    border-color: rgb(100, 94, 94);
+    border-radius: 50px;
+}
+
+#post-BottomBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px;
+    border-color: rgb(100, 94, 94);
+    border-radius: 50px;
+}
+
+#postBar{
+    font-size: large;
+}
+
+.post-label{
+    font-size: medium;
+    font-weight: 500;
+    padding-right: 36px;
+}
+
+#feed-view{
+    align-items: center;
+    justify-content: right;
+    width : 550px;
+}
+.feed-view-select{
+    font-weight: 400;
+    color: gray;
+    font-size: 12px;
+}
+
+.feed-options{
+    font-weight: 500;
+    font-size: 14px;
+}
+/*FEED CARD*/
+#feed-ProfileBar{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 26px;
+}
+#feedCard{
+    border-radius: 2px;
+    height: 800px;
+    width : 550px;
+    padding: 12px;
+    background-color: white;
+    margin: 24px;
+    border: 1px;
+    border-color: rgb(77, 75, 75);
+}
+
+#suggestionBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#feed-profileName{
+    font-weight: 700;
+    margin: 0px;
+}
+
+.profile-metadata{
+    font-size: 14px;
+    color: gray;
+}
+
+#profile-link{
+    font-size: 14px;
+    color: blue;
+}
+
+#followLabel{
+    font-size: 14px;
+    color: blue;
+}
+
+/*NEWS BOX*/
+#newsCard{
+    border-radius: 15px;
+    height: 350px;
+    width : 250px;
+    padding: 12px;
+    background-color: white;
+    margin: 24px;
+    border: 1px;
+    border-color: rgb(77, 75, 75);
+}
+
+#newsHeader{
+    font-size: 28px;
+    justify-content: space-between;
+    padding-bottom: 8px;
+}
+
+#topStoriesHeader{
+    color: gray;
+    padding-bottom: 8px;
+}
+
+#news-col{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.stories-header{
+    font-weight: 500;
+}
+
+.stories-label{
+    color: gray;
+    font-size: 14px;
+}
+
+#label{
+    padding-top: 18px;
+}
+
+
+#BrainyBar{
+    display: flex;
+    flex-direction: row;
+}
