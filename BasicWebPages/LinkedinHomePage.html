@@ -135,24 +135,33 @@
                          <p>Start a post</p>
                     </div>
                 </div>
-
             </div>
 
+            <div id = "feed-view">
+                <span class="feed-view-select"> Select Feed View</span>
+                <span class="feed-options">Most Relevant First</span>
+                <img src="linkedinRes/events.png" class="down-arrow">
+            </div>
+
+            <!--FEED CARD-->
             <div id="feedCard">
                 <div id = "sugesstionBar">
-                    <p>Suggested</p>
+                    <span id="suggestion-label">Suggested</span>
                     <span id = "suggestionIconGroup">
-                        <img class="suggestionIcon" src="">
-                        <img class="suggestionIcon" src="">
+                        <img class="suggestionIcon" src="linkedinRes/more.png">
+                        <img class="suggestionIcon" src="linkedinRes/cross.png">
                     </span>
                 </div>
+                <hr class="divider">
 
                 <div id = "feedProfileBar">
-                    <img id = "feedProfile" src = "">
+                    <img id = "feedProfile" src = "linkedinRes/img-pfp.png">
                     <div id = "feedProfileDetailBar">
-                        <h2 id = "feedProfileName">Amit Kumar</h2>
-                        <p id = "feedProfileDetails">Android Developer | Kotlin MultiPlatform (KMP) | Play Store Developer</p>
+                        <h3 id = "feed-ProfileName">Amit Kumar <img src = "linkedinRes/linkedin.png"> <span class="profile-metadata">. 3rd+</span></h3>
+                        <div id = "feedProfileDetails">Android Developer | Kotlin MultiPlatform (KMP) | Play Store Developer</div>
                         <img src = "">
+                        <div id = "profile-link"> View my Profile</div>
+                        <div class="profile-metadata">5h . <img src = "linkedinRes/globe.png"></div>
                     </div>
                     <p id = "followLabel">+ Follow</p>
                 </div>

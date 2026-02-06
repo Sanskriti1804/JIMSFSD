@@ -155,14 +155,60 @@ body{
     padding-right: 36px;
 }
 
+#feed-view{
+    align-items: center;
+    justify-content: right;
+    width : 550px;
+}
+.feed-view-select{
+    font-weight: 400;
+    color: gray;
+    font-size: 12px;
+}
+
+.feed-options{
+    font-weight: 500;
+    font-size: 14px;
+}
 /*FEED CARD*/
+#feed-ProfileBar{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 26px;
+}
 #feedCard{
     border-radius: 2px;
-    height: 00px;
+    height: 800px;
     width : 550px;
     padding: 12px;
     background-color: white;
     margin: 24px;
     border: 1px;
     border-color: rgb(77, 75, 75);
+}
+
+#suggestionBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#feed-profileName{
+    font-weight: 700;
+    margin: 0px;
+}
+
+.profile-metadata{
+    font-size: 14px;
+    color: gray;
+}
+
+#profile-link{
+    font-size: 14px;
+    color: blue;
+}
+
+#followLabel{
+    font-size: 14px;
+    color: blue;
 }
