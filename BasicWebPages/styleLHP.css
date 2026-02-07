@@ -329,11 +329,19 @@ body{
     padding-left: 4px;
 }
 
-/* FEED CARD */
+/* FEED DIVIDER */
+.hr-feed{
+    width: 16px;
+    height: 2px;
+    color: gray;
+}
 .feed-view{
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: right;
-    width : 550px;
+    width : 580px;
+    gap: 8px;
 }
 .feed-view-select{
     font-weight: 400;
@@ -341,10 +349,16 @@ body{
     font-size: 12px;
 }
 
+.down-arrow{
+    height: 10px;
+    width: 10px;
+}
+
 .feed-options{
     font-weight: 500;
     font-size: 14px;
 }
+
 /*FEED CARD*/
 .feed-ProfileBar{
     display: flex;
@@ -446,11 +460,8 @@ body{
     width: 20px;
 }
 
-.down-arrow{
-    height: 20px;
-    width: 20px;
-}
-s
+
+
 .suggestionIcon{
     height: 20px;
     width: 20px;
