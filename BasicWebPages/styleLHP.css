@@ -178,10 +178,10 @@ body{
 .premiumPromoCard{
     border-radius: 15px;
     height: 60px;
-    width : 220px;
+    width : 228px;
     padding: 12px;
     background-color: white;
-    margin: 32px;
+    margin: 24px;
     border: 1px;
     border-color: rgb(77, 75, 75);
 }
@@ -228,10 +228,10 @@ body{
 }
 
 /*COLLECTION CARD*/
-.collectionCard{
+.collection-card{
     border-radius: 15px;
-    height: 100px;
-    width : 250px;
+    height: 120px;
+    width : 228px;
     padding: 14px;
     background-color: white;
     margin: 24px;
@@ -239,15 +239,21 @@ body{
     border-color: rgb(77, 75, 75);
 }
 
+.collection-icon{
+    height: 2px;
+    width: 2px;
+}
+
 .collection-items{
     display: flex;
     flex-direction: row;
-    margin: 7px;
+    padding: 6px;
+    gap: 12px;
 }
 
 .collection-label{
-    padding-left: 34px;
-    font-weight: 600;
+    /* padding-left: 34px; */
+    font-weight: 500;
 }
 
 /*FEED BOX*/
