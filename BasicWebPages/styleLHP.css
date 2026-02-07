@@ -3,54 +3,95 @@ body{
     padding: 0%;
 }
 
-#contentBox{
+.contentBox{
     background-color: rgb(231, 224, 215);
 }
 
 /* NAV BAR */
-#navBox{
+.navBox{
     display: flex;
     flex-direction:row;
     align-items: center;
-    justify-content: space-between;
+    gap : 36px;
     background-color: white;
     width: 100%;
-    height: 70px;
-}
-#navBar{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    gap: 20px;
+    height: 80px;
+    margin: 6px 24px;
 }
 
 .nav-link{
     display: flex;
     gap: 6px;
 }
-
 .linkedin-logo{
-    height: 20px;
-    width: 20px;
+    height: 60px;
+    width: 60px;
+}
+
+.navBar{
+    width : 800px;
+    display: flex;
+    flex-direction: row;
+    gap: 106px;
+    padding: 0px 144px;
+}
+
+.topbar-hr{
+    border-width: 5px;
+    height: 5px;
+    border-color: rgb(85, 82, 84);
+}
+.nav-link{
+    text-decoration: none;
+}
+
+.nav-item{
+    list-style: none;
+    gap: 20px;
 }
 
 .topbar-icon{
-    height: 20px;
-    width: 20px;
+    height: 36px;
+    width: 36px;
 }
 
 .nav-icon{
-    height: 20px;
-    width: 20px;
+    height: 36px;
+    width: 36px;
 }
 
+.Badge{
+    height: 14px;
+    width: 14px;
+    display: flex;
+    border-radius: 999px;
+    background-color: red;
+    color: white;
+    padding: 6px ;
+    justify-content: center;
+    align-items: center;
+}
+
+.navPremiumBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.topbar-premium-label{
+    font-size: 22px;
+}
+
+
 /* PROFILE CARD */
-#contentBox{
+.contentBox{
     display: flex;
     flex-direction: row;
 }
 
-#profileCard{
+.profileCard{
     border-radius: 15px;
     height: 250px;
     width : 250px;
@@ -61,7 +102,7 @@ body{
     border-color: rgb(77, 75, 75);
 }
 
-#location{
+.location{
     color: rgb(167, 161, 161);
 }
 
@@ -70,7 +111,7 @@ body{
 }
 
 /*PROMO CARD*/
-#premiumPromoCard{
+.premiumPromoCard{
     border-radius: 15px;
     height: 100px;
     width : 250px;
@@ -81,12 +122,12 @@ body{
     border-color: rgb(77, 75, 75);
 }
 
-#premiumHeading{
+.premiumHeading{
     color: rgb(167, 161, 161);
 }
 
 /*STATS CARD*/
-#statsCard{
+.statsCard{
     border-radius: 15px;
     justify-content: space-between;
     height: 80px;
@@ -108,7 +149,7 @@ body{
 }
 
 /*COLLECTION CARD*/
-#collectionCard{
+.collectionCard{
     border-radius: 15px;
     height: 100px;
     width : 250px;
@@ -132,7 +173,7 @@ body{
 
 /*FEED BOX*/
 /*POST CARD*/
-#postCard{
+.postCard{
     border-radius: 2px;
     height: 100px;
     width : 550px;
@@ -143,7 +184,7 @@ body{
     border-color: rgb(77, 75, 75);
 }
 
-#post-TopBar{
+.post-TopBar{
     display: flex;
     flex-direction: row;
     border: 1px;
@@ -151,7 +192,7 @@ body{
     border-radius: 50px;
 }
 
-#post-BottomBar{
+.post-BottomBar{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -160,7 +201,7 @@ body{
     border-radius: 50px;
 }
 
-#postBar{
+.postBar{
     font-size: large;
 }
 
@@ -170,7 +211,7 @@ body{
     padding-right: 36px;
 }
 
-#feed-view{
+.feed-view{
     align-items: center;
     justify-content: right;
     width : 550px;
@@ -186,12 +227,12 @@ body{
     font-size: 14px;
 }
 /*FEED CARD*/
-#feed-ProfileBar{
+.feed-ProfileBar{
     display: flex;
     flex-direction: row;
     padding-bottom: 26px;
 }
-#feedCard{
+.feedCard{
     border-radius: 2px;
     height: 800px;
     width : 550px;
@@ -202,13 +243,13 @@ body{
     border-color: rgb(77, 75, 75);
 }
 
-#suggestionBar{
+.suggestionBar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#feed-profileName{
+.feed-profileName{
     font-weight: 700;
     margin: 0px;
 }
@@ -218,18 +259,18 @@ body{
     color: gray;
 }
 
-#profile-link{
+.profile-link{
     font-size: 14px;
     color: blue;
 }
 
-#followLabel{
+.followLabel{
     font-size: 14px;
     color: blue;
 }
 
 /*NEWS BOX*/
-#newsCard{
+.newsCard{
     border-radius: 15px;
     height: 350px;
     width : 250px;
@@ -240,18 +281,18 @@ body{
     border-color: rgb(77, 75, 75);
 }
 
-#newsHeader{
+.newsHeader{
     font-size: 28px;
     justify-content: space-between;
     padding-bottom: 8px;
 }
 
-#topStoriesHeader{
+.topStoriesHeader{
     color: gray;
     padding-bottom: 8px;
 }
 
-#news-col{
+.news-col{
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -266,18 +307,18 @@ body{
     font-size: 14px;
 }
 
-#label{
+.label{
     padding-top: 18px;
 }
 
 
-#BrainyBar{
+.BrainyBar{
     display: flex;
     flex-direction: row;
 }
 
 
-#profileBg{
+.profileBg{
     height: 20px;
     width: 20px;
 }
@@ -287,7 +328,7 @@ body{
     width: 20px;
 }
 
-#premiumIcon{
+.premiumIcon{
     height: 20px;
     width: 20px;
 }
@@ -302,17 +343,17 @@ body{
     width: 20px;
 }
 
-#post-icon-video{
+.post-icon-video{
     height: 20px;
     width: 20px;
 }
 
-#post-icon-photo{
+.post-icon-photo{
     height: 20px;
     width: 20px;
 }
 
-#post-icon-article{
+.post-icon-article{
     height: 20px;
     width: 20px;
 }
@@ -321,18 +362,18 @@ body{
     height: 20px;
     width: 20px;
 }
-
+s
 .suggestionIcon{
     height: 20px;
     width: 20px;
 }
 
-#feedProfile{
+.feedProfile{
     height: 20px;
     width: 20px;
 }
 
-#feed-ProfileName{
+.feed-ProfileName{
     height: 20px;
     width: 20px;
 }
@@ -342,13 +383,12 @@ body{
     width: 20px;
 }
 
-#info-icon{
+.info-icon{
     height: 20px;
     width: 20px;
 }
 
-
-#brainyLogo{
+.brainyLogo{
     height: 20px;
     width: 20px;
 }

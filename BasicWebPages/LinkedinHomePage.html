@@ -8,7 +8,7 @@
 </head>
 <body>
 <!-- NAV BAR -->
-    <div id = "navBox">
+    <div class  = "navBox">
         <img src = "../linkedinRes/linkedin.png" alt="linkedin-logo" class="linkedin-logo"/>
         <img src = "../linkedinRes/search.png" alt="search" class="topbar-icon"/>
             <ul class="navBar">
@@ -30,53 +30,59 @@
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">
-                        <img src="../linkedinRes/messages.png" alt = "Notification" class="nav-icon"/>
+                        <img src="../linkedinRes/messages.png" alt = "Messages" class="nav-icon"/>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">
-                        <img src="../linkedinRes/messages.png" alt = "Profile" class="nav-icon"/>
+                        <img src="../linkedinRes/messages.png" alt = "Notification" class="nav-icon"/>
                         <span class="Badge">3</span>
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <img src="../linkedinRes/imgpfp.png" alt = "Profile" class="nav-icon"/>
+                    </a>
+                </li>
             </ul>
-           <img src = "../linkedinRes/dots.png" alt="dot-grid" class="topbar-icon"/> 
-           <div id = navPremiumBar>
+           <img src = "../linkedinRes/dots.png" alt="dot-grid" class="topbar-icon"/>
+           <div class="topbar-hr"></div> 
+           <div class  = navPremiumBar>
               <img src = "../linkedinRes/premium.png" alt="dot-grid" class="topbar-icon"/>
-              <span>Try Premium for $0</span>
+              <span class="topbar-premium-label">Try Premium for $0</span>
            </div>
         </div>
     </div>
 
 
-    <div id = "contentBox">
+    <div class  = "contentBox">
         <!--PROFILE CARD -->
-        <div id = "profileBox">
-            <div id = "profileCard">
-                <img id = "profileBg" src = "../linkedinRes/imgpbg.png">
+        <div class  = "profileBox">
+            <div class  = "profileCard">
+                <img class  = "profileBg" src = "../linkedinRes/imgpbg.png">
                 <img class = "profileImg" src = "../linkedinRes/imgpfp.png">
-                <h2 id = "username">Sanskriti - </h2>
-                <div id = "profileDetails">
+                <h2 class  = "username">Sanskriti - </h2>
+                <div class  = "profileDetails">
                     <p>JIMS | MCA | BCA | Android Developer | Kotlin | Jetpack Compose</p>
-                    <p id = "location"> New Delhi, Delhi</p>
+                    <p class  = "location"> New Delhi, Delhi</p>
                 </div>
-                <div id = "university">
-                    <img id = "ic_university" src="">
+                <div class  = "university">
+                    <img class  = "ic_university" src="">
                     <p class = "profile_label"> Jagan Institute Of Management Studies(JIMS Rohini)</p>
                 </div>
             </div>
 
             <!--PREMIUM PROMO CARD-->
-            <div id = "premiumPromoCard">
-                <p id = "premiumHeading">Grow your career with Premium</p>
-                <div id = "premiumLabel">
-                    <img id = "premiumIcon" src="../linkedinRes/premium.png">
+            <div class  = "premiumPromoCard">
+                <p class  = "premiumHeading">Grow your career with Premium</p>
+                <div class  = "premiumLabel">
+                    <img class  = "premiumIcon" src="../linkedinRes/premium.png">
                     <span class="profile_label">Try Premium for free</span>
                 </div>
             </div>
             
             <!--STATS CARD-->
-            <div id = "statsCard">
+            <div class  = "statsCard">
                 <p class="statsHeader">Profile Viewer <span class="statsLabel">95</span></p>
                 <p class="statsHeader">Post Impression <span class="statsLabel">2</span></p>
             </div>
@@ -103,16 +109,16 @@
         </div>
 
         <!--FEED BOX-->
-        <div id = "feedBox">
+        <div class  = "feedBox">
             <!--POST CARD-->
             <div id="postCard">
-                <div id = "post-TopBar">
+                <div class  = "post-TopBar">
                     <img class="profileImg" src = "../linkedinRes/imgpfp.png">
-                    <span id = "postBar">
+                    <span class  = "postBar">
                          <p>Start a post</p>
                     </span>
                 </div>
-                <div id = "post-BottomBar">
+                <div class  = "post-BottomBar">
                     <div class="post-items">
                         <img src = "../linkedinRes/video.png" alt = "Video" id="post-icon-video">
                         <span class="post-label">Video</span>
@@ -126,13 +132,13 @@
                         <span class="post-label">Write a Article</span>
                     </div>                    
                     <img class="profileImg" src = "../linkedinRes/search.png">
-                    <div id = "postBar">
+                    <div class  = "postBar">
                          <p>Start a post</p>
                     </div>
                 </div>
             </div>
 
-            <div id = "feed-view">
+            <div class  = "feed-view">
                 <span class="feed-view-select"> Select Feed View</span>
                 <span class="feed-options">Most Relevant First</span>
                 <img src="../linkedinRes/events.png" class="down-arrow">
@@ -140,38 +146,38 @@
 
             <!--FEED CARD-->
             <div id="feedCard">
-                <div id = "sugesstionBar">
+                <div class  = "sugesstionBar">
                     <span id="suggestion-label">Suggested</span>
-                    <span id = "suggestionIconGroup">
+                    <span class  = "suggestionIconGroup">
                         <img class="suggestionIcon" src="../linkedinRes/more.png">
                         <img class="suggestionIcon" src="../linkedinRes/close.png">
                     </span>
                 </div>
                 <hr class="divider">
 
-                <div id = "feed-ProfileBar">
-                    <img id = "feedProfile" src = "../linkedinRes/imgpfp.png">
-                    <div id = "feedProfileDetailBar">
-                        <h3 id = "feed-ProfileName">Amit Kumar <img src = "../linkedinRes/linkedin.png" class="feed-icon"> <span class="profile-metadata">. 3rd+</span></h3>
-                        <div id = "feedProfileDetails">Android Developer | Kotlin MultiPlatform (KMP) | Play Store Developer</div>
+                <div class  = "feed-ProfileBar">
+                    <img class  = "feedProfile" src = "../linkedinRes/imgpfp.png">
+                    <div class  = "feedProfileDetailBar">
+                        <h3 class  = "feed-ProfileName">Amit Kumar <img src = "../linkedinRes/linkedin.png" class="feed-icon"> <span class="profile-metadata">. 3rd+</span></h3>
+                        <div class  = "feedProfileDetails">Android Developer | Kotlin MultiPlatform (KMP) | Play Store Developer</div>
                         <img src = "">
-                        <div id = "profile-link"> View my Profile</div>
+                        <div class  = "profile-link"> View my Profile</div>
                         <div class="profile-metadata">5h . <img src = "../linkedinRes/globe.png" class="feed-icon"></div>
                     </div>
-                    <p id = "followLabel">+ Follow</p>
+                    <p class  = "followLabel">+ Follow</p>
                 </div>
                 
-                <p id = "feedHeader">Why Dependency Injection Matters in Android & Kotlin Multiplatform</p>
-                <p id = "feedContent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tenetur officiis praesentium repellat, dolore accusantium expedita aliquam eius? Ipsa, sint. Officia mollitia fugit enim minus ad eum illo magni alias.</p>
+                <p class  = "feedHeader">Why Dependency Injection Matters in Android & Kotlin Multiplatform</p>
+                <p class  = "feedContent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tenetur officiis praesentium repellat, dolore accusantium expedita aliquam eius? Ipsa, sint. Officia mollitia fugit enim minus ad eum illo magni alias.</p>
             </div>
         </div>
 
         <!--NEWS HEADER-->
-        <div id = "newsBox">
-            <div id = "newsCard">
-                <div id = "newsHeader">LinkedIn News <img src = "../linkedinRes/info.png" id = "info-icon"></div>
-                <div id = "topStoriesHeader"> Top Stories </div>
-                <div id = "news-col">
+        <div class  = "newsBox">
+            <div class  = "newsCard">
+                <div class  = "newsHeader">LinkedIn News <img src = "../linkedinRes/info.png" class  = "info-icon"></div>
+                <div class  = "topStoriesHeader"> Top Stories </div>
+                <div class  = "news-col">
                     <div>
                     <div class="stories-header">M&M invests 15,000 in Nagpur</div>
                     <div class="stories-label">2hr ago . 9,647 readers</div>
@@ -186,32 +192,32 @@
                 </div>
             </div>
             <div id="show-more"> Show more </div>
-                <p id = "puzzleHeader">Today's puzzles </p>
-                <div id = "BrainyBar">
-                    <img id = "brainyLogo" src="../linkedinRes/premium.png">
+                <p class  = "puzzleHeader">Today's puzzles </p>
+                <div class  = "BrainyBar">
+                    <img class  = "brainyLogo" src="../linkedinRes/premium.png">
                     <p>Hi, I'm Brainy!</p>
                     <p>Zip is Linedin's daily logic puzzle</p>
-                    <img id = "ic_more" src="">
+                    <img class  = "ic_more" src="">
                 </div>
             </div> 
             
-            <div id = "promoCard">
-                <img id = "profileBg" src = "">
+            <div class  = "promoCard">
+                <img class  = "profileBg" src = "">
                 <img class = "promoImg" src = "">
                 <h6>State Bank of India</h6>
-                <div id = "profileDetails">
+                <div class  = "profileDetails">
                     <p>Sanskriti, grow your career by following State Bank Of India</p>
                     <p> Stay informed on industry news and trends</p>
                 </div>
-                <div id = "followSuggestion">
-                    <img id = "followSuggestionProfile" src="">
+                <div class  = "followSuggestion">
+                    <img class  = "followSuggestionProfile" src="">
                     <p class = "followSuggestionLabel"> Nirmal Kumar & 179 other connection also follow</p>
                     <button>Follow</button>
                 </div>
 
             </div>
 
-            <div id = "linkBox"></div>
+            <div class  = "linkBox"></div>
         
         </div>
     </div>
