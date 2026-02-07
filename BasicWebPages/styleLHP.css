@@ -260,42 +260,76 @@ body{
 /*POST CARD*/
 .postCard{
     border-radius: 2px;
-    height: 100px;
+    height: 90px;
     width : 550px;
     padding: 16px;
     background-color: white;
     margin: 24px;
     border: 1px;
     border-color: rgb(77, 75, 75);
+    border-radius: 12px;
 }
 
 .post-TopBar{
     display: flex;
     flex-direction: row;
-    border: 1px;
-    border-color: rgb(100, 94, 94);
+    align-items: center;
+    gap: 22px;
+}
+
+.profileImg-post{
+    height: 45px;
+    width: 45px;
+    border-radius: 999px;
+}
+
+.postBar{
+    /* behaves like text but styles like a box */
+    display: inline-flex;
+    font-weight: 550;
+    font-size: 18px;
+    width: 465px;
+    height: 38px;
+    border: 0.01px solid rgb(172, 168, 168);
     border-radius: 50px;
+    align-items: center;
+    padding: 0px 18px;
 }
 
 .post-BottomBar{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border: 1px;
-    border-color: rgb(100, 94, 94);
-    border-radius: 50px;
+    align-items: center;
+    padding: 18px 0px;
+    padding-left: 82px;
+    align-items: center;
 }
 
-.postBar{
-    font-size: large;
+.post-icon-video{
+    height: 18px;
+    width: 28px;
 }
+
+.post-icon-photo{
+    height: 18px;
+    width: 28px;
+}
+
+.post-icon-article{
+    height: 18px;
+    width: 28px;
+}
+
 
 .post-label{
     font-size: medium;
     font-weight: 500;
     padding-right: 36px;
+    padding-left: 4px;
 }
 
+/* FEED CARD */
 .feed-view{
     align-items: center;
     justify-content: right;
@@ -408,21 +442,6 @@ body{
 }
 
 .collection-icon{
-    height: 20px;
-    width: 20px;
-}
-
-.post-icon-video{
-    height: 20px;
-    width: 20px;
-}
-
-.post-icon-photo{
-    height: 20px;
-    width: 20px;
-}
-
-.post-icon-article{
     height: 20px;
     width: 20px;
 }
