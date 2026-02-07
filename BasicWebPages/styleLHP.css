@@ -203,23 +203,28 @@ body{
 /*STATS CARD*/
 .statsCard{
     border-radius: 15px;
-    justify-content: space-between;
-    height: 80px;
-    width : 250px;
-    padding: 12px;
+    height: 54px;
+    width : 220px;
     background-color: white;
     margin: 24px;
+    padding: 18px;
     border: 1px;
     border-color: rgb(77, 75, 75);
 }
 
+.stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 12px;
+}
 .statsHeader{
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .statsLabel{
-    color: blue;
-    padding-left: 112px;
+    font-weight: 500;
+    color: rgb(77, 77, 153);
 }
 
 /*COLLECTION CARD*/
