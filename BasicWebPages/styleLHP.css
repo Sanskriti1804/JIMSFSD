@@ -363,28 +363,49 @@ body{
 .feed-ProfileBar{
     display: flex;
     flex-direction: row;
-    padding-bottom: 26px;
+    gap: 12px;
 }
+
 .feedCard{
     border-radius: 2px;
     height: 800px;
     width : 550px;
-    padding: 12px;
+    padding: 18px;
     background-color: white;
     margin: 24px;
     border: 1px;
     border-color: rgb(77, 75, 75);
 }
 
-.suggestionBar{
+.feedProfileDetailBar{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 2px;
 }
 
-.feed-profileName{
+.feedProfileDetails{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: rgb(102, 98, 98);
+}
+
+.feedProfile{
+    height: 60px;
+    width: 60px;
+    border-radius: 999px;
+}
+
+.feed-ProfileName{
+    display: flex;
+    flex-direction: row;
     font-weight: 700;
-    margin: 0px;
+    gap: 5px;
+}
+.feed-icon{
+    height: 15px;
+    width: 15px;    
 }
 
 .profile-metadata{
@@ -394,13 +415,16 @@ body{
 
 .profile-link{
     font-size: 14px;
-    color: blue;
+    color: rgb(65, 65, 150);
 }
 
 .followLabel{
-    font-size: 14px;
-    color: blue;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    color: rgb(65, 65, 150);
 }
+
 
 /*NEWS BOX*/
 .newsCard{
@@ -461,23 +485,7 @@ body{
 }
 
 
-
 .suggestionIcon{
-    height: 20px;
-    width: 20px;
-}
-
-.feedProfile{
-    height: 20px;
-    width: 20px;
-}
-
-.feed-ProfileName{
-    height: 20px;
-    width: 20px;
-}
-
-.profile-metadata{
     height: 20px;
     width: 20px;
 }
@@ -492,7 +500,3 @@ body{
     width: 20px;
 }
 
-.feed-icon{
-    height: 20px;
-    width: 20px;    
-}
