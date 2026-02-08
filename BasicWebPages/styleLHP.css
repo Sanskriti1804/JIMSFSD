@@ -364,6 +364,7 @@ body{
     display: flex;
     flex-direction: row;
     gap: 12px;
+    padding-bottom: 12px;
 }
 
 .feedCard{
@@ -425,6 +426,19 @@ body{
     color: rgb(65, 65, 150);
 }
 
+/* FEED */
+.feedHeader{
+    font-weight: 525;
+    padding-bottom: 3px;
+}
+
+.feedContent{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    padding-right: 12px;
+}
 
 /*NEWS BOX*/
 .newsCard{
