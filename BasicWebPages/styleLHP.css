@@ -484,25 +484,33 @@ body{
 
 /*NEWS BOX*/
 .newsCard{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
     border-radius: 15px;
-    height: 350px;
-    width : 250px;
-    padding: 12px;
+    height: 320px;
+    width : 240px;
+    padding: 18px;
     background-color: white;
     margin: 24px;
     border: 1px;
     border-color: rgb(77, 75, 75);
 }
 
-.newsHeader{
-    font-size: 28px;
+.news-header{
+     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 8px;
+
+}
+.newsHeader-label{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(77, 75, 75);
 }
 
 .topStoriesHeader{
     color: gray;
-    padding-bottom: 8px;
 }
 
 .news-col{
@@ -524,10 +532,20 @@ body{
     padding-top: 18px;
 }
 
+.puzzleHeader{
+    color: rgb(77, 75, 75);
+}
+
+
+.brainyLogo{
+    height: 45px;
+    width: 40px;
+}
 
 .BrainyBar{
     display: flex;
     flex-direction: row;
+    gap: 12px;
 }
 
 .premiumIcon{
@@ -551,8 +569,4 @@ body{
     width: 20px;
 }
 
-.brainyLogo{
-    height: 20px;
-    width: 20px;
-}
 
