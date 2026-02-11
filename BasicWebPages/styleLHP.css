@@ -484,25 +484,33 @@ body{
 
 /*NEWS BOX*/
 .newsCard{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
     border-radius: 15px;
-    height: 350px;
-    width : 250px;
-    padding: 12px;
+    height: 320px;
+    width : 240px;
+    padding: 18px;
     background-color: white;
     margin: 24px;
     border: 1px;
     border-color: rgb(77, 75, 75);
 }
 
-.newsHeader{
-    font-size: 28px;
+.news-header{
+     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 8px;
+
+}
+.newsHeader-label{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(77, 75, 75);
 }
 
 .topStoriesHeader{
     color: gray;
-    padding-bottom: 8px;
 }
 
 .news-col{
@@ -524,10 +532,20 @@ body{
     padding-top: 18px;
 }
 
+.puzzleHeader{
+    color: rgb(77, 75, 75);
+}
+
+
+.brainyLogo{
+    height: 45px;
+    width: 40px;
+}
 
 .BrainyBar{
     display: flex;
     flex-direction: row;
+    gap: 12px;
 }
 
 .premiumIcon{
@@ -551,8 +569,55 @@ body{
     width: 20px;
 }
 
-.brainyLogo{
-    height: 20px;
-    width: 20px;
+/* ABOUT SECTION */
+.about-section{
+    display: flex;
+    flex-direction: column;
+    width : 240px;
+    padding-top: 0px ;
+    padding-left: 36px;
+}
+.about-1{
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+    justify-content: space-around;
 }
 
+.about-2{
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+    justify-content: space-around;
+}
+
+.about-3{
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+    justify-content: space-around;
+}
+
+.about-title{
+    font-size: 10px;
+    color: rgb(78, 76, 76);
+}
+
+.linkedin-corp{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding-top: 12px;
+    justify-content: space-around;
+}
+
+.linkedin-header{
+    font-size: 14px;
+    color: rgb(52, 34, 119);
+    font-weight: bold;
+}
+
+.linkein-corp{
+    font-size: 14px;
+    color: rgb(78, 76, 76)
+}
