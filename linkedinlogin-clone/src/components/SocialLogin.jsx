@@ -5,7 +5,7 @@ function SocialLogin(){
             <div className="google-login">
                 <div className="user-icon"></div>
                 <div>
-                    <div>Continue as Sanskriti</div>
+                    <div className="google-login-label">Continue as Sanskriti</div>
                     <small>sanskriti@gmail.com</small>
                 </div>
                 <div className="google-icon"></div>

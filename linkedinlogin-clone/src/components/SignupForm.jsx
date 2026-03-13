@@ -20,6 +20,8 @@ function SignupForm(){
 
             <p className="terms">
                 By clicking Agree & Join or Continue, you agree to the LinkedIn
+            </p>
+            <p className="terms">
                 <span className = "blue-term">User Agreement</span>,
                 <span className="blue-term">Privacy Policy</span>
                 and
