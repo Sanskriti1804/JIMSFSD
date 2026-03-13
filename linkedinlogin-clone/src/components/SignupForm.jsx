@@ -1,3 +1,5 @@
+import SocialLogin from './SocialLogin';
+
 function SignupForm(){
     return(
         <div className="form-container">
