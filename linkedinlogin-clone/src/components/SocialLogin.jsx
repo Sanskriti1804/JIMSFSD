@@ -11,8 +11,8 @@ function SocialLogin(){
                     <img src = {userIcon} alt="user-icon" className="user-icon"/>
                 </div>
                 <div>
-                    <div className="google-login-label">Continue as Sanskriti</div>
-                    <small>sanskriti@gmail.com</small>
+                    <div className="google-login-label">Continue as User1</div>
+                    <small>user1@gmail.com</small>
                 </div>
                 <div className="google-icon">
                     <img src = {googleIcon} alt="google-icon" className="google-icon"/>
