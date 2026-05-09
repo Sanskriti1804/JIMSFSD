@@ -90,6 +90,32 @@
   transform: translateY(-5px);
 }
 
+.status-container{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.status-dot{
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  display: inline-block;
+}
+
+.online{
+  background-color: rgb(67, 208, 67);
+}
+
+.offline{
+  background-color: red;
+}
+
+.status{
+  font-size: 14px;
+  font-weight: 300;
+}
+
 .user-name{
   color: white;
 }

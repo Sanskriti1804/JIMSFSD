@@ -12,10 +12,10 @@ function App(){
 
   // rendering list
   const users = [
-      { id : 1, name : "Suns", role : "Frontend Developer"},
-      { id : 2, name : "Max", role : "Excel Sheet Ultra Junior"},
-      { id : 3, name : "Shreya", role : "Singer loml"},
-      { id : 4, name : "Sharukh", role : "Boyfriend" }
+      { id : 1, name : "Suns", role : "Frontend Developer", online : true },
+      { id : 2, name : "Max", role : "Excel Sheet Ultra Junior", online : true },
+      { id : 3, name : "Shreya", role : "Singer loml", online : false},
+      { id : 4, name : "Sharukh", role : "Boyfriend", online : false }
     ]
 
   return(
@@ -30,6 +30,7 @@ function App(){
       key = {user.id}
       name= {user.name}
       role= {user.role}
+      online = {user.online}
       />
       ))}
 

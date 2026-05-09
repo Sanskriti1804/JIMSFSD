@@ -5,6 +5,10 @@ function UserCard(props){
      const [followed, setfollowed] = useState(false)
     return(
         <div className="user-card">
+            <div className="status-container">
+                <span className={props.online ? "status-dot online" : "status-dot offline"}></span>
+                <p className="status">{props.online ? "Online" : "Offline"}</p>
+            </div>
             <h2 className="user-name">{props.name}</h2>
             <p className="user-role">{props.role}</p>
 
