@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR */
+.navbar{
+  /* items in a row */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 40px;
+  background-color: palevioletred;
+  color: white;
+}
+
+.light{
+  background-color: white;
+  color: black;
+}
+
+.dark{
+  background-color: rgb(129, 49, 76);
+  color: white;
+}
+
+.nav-links{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.hero-section{
+  text-align: center;
+  padding: 100px 20px;
+}
+
+/* THEME BUTTON */
+.theme-toggle{
+  /* stays on screen */
+  position: fixed;
+  top: 20px;
+  right: 20px;
+
+  width: 50px;
+  height: 50px;
+
+  /* circular button */
+  border-radius: 50%;
+  border: none;
+
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 25px;
+
+  background-color: white;
+  box-shadow: 0 4px 12px rgb(236, 139, 171);
+  transition: 0.3s ease;
+}
+
+.theme-toggle:hover{
+  transform: scale(1.2);
+}
+
+
+/* USER CARD */
+.user-card-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 40px;
+  justify-content: center;
+}
+
+.user-card{
+  background-color:rgb(236, 139, 171);
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.user-card:hover{
+  /* lifts card slighlty upward */
+  transform: translateY(-5px);
+}
+
+.user-name{
+  color: white;
+}
+
+.user-role{
+  color: rgba(255, 255, 255, 0.794);
+}
+
+.follow-btn{
+  border: none;
+  padding: 10px 30px;
+  margin-top: 25px;
+  border-radius: 12px;
+  color: palevioletred;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.5s ease;
+  background-color: azure;
+}
+
+.follow-btn:hover{
+  opacity: 0.85;
+}
