@@ -2,6 +2,7 @@ import Header from './components/Header'
 import "./App.css"
 import UserCard from './components/UserCard';
 import { useState } from 'react';
+import DeveloperForm from './components/DeveloperForm'
 
 function App(){
 
@@ -21,6 +22,7 @@ function App(){
   return(
     <div className={darkmode ? "app dark" : "app light"}>
         <Header darkmode={darkmode} setDarkMode={setDarkMode}/>
+        
     <div className="user-card-container"> 
 
        {/*map function  */}
@@ -33,6 +35,8 @@ function App(){
       online = {user.online}
       />
       ))}
+
+        <DeveloperForm/>
 
         </div>
     </div>
