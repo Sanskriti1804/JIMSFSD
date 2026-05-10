@@ -14,6 +14,17 @@ function DeveloperForm(){
             return
         }
 
+        const newUser = {
+            id : Date.now(),
+            name : name,
+            role : role,
+            //default status
+            online : true
+        }
+
+        //sending data to parent
+        addDev(newUser)
+
         //clear i/p after submitting
         setName("")
         setRole("")
