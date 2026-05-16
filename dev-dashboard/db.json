@@ -1,0 +1,14 @@
+{
+    "developers" : [
+      { "id" : 1, "name" : "Suns", "role" : "Frontend Developer", "online" : true , "domainIds" : "[1]"},
+      { "id" : 2, "name" : "Max", "role" : "Excel Sheet Ultra Junior", "online" : true , "domainIds" : "[2]"},
+      { "id" : 3, "name" : "Shreya", "role" : "Singer loml", "online" : false, "domainIds" : "[1]"},
+      { "id" : 4, "name" : "Sharukh", "role" : "Boyfriend", "online" : false, "domainIds" : "[2]" }
+    ],
+
+    "domain" : [
+        {"id" : "1", "name" : "Real Developer"},
+        {"id" : "2", "name" : "Fake Developer"}
+    ]
+}
+ 

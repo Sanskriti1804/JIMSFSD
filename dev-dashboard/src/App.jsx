@@ -16,15 +16,14 @@ function App(){
   //users state - initially empty  because data will come from fake api
   const [users, setUsers] = useState([])
 
-  //FAKE API DATA
+  // FAKE API DATA
   // rendering list - using map
-  const apiUsers = 
-    [
-      { id : 1, name : "Suns", role : "Frontend Developer", online : true },
-      { id : 2, name : "Max", role : "Excel Sheet Ultra Junior", online : true },
-      { id : 3, name : "Shreya", role : "Singer loml", online : false},
-      { id : 4, name : "Sharukh", role : "Boyfriend", online : false }
-    ]
+  // const apiUsers = 
+  //   [
+  //     { id : 1, name : "Suns", role : "Frontend Developer", online : true },
+  //     { id : 2, name : "Max", role : "Excel Sheet Ultra Junior", online : true },
+  //   ]
+//now in db.json 
 
     //COMPONENT LIFECYCLE - runs ONCE after the component mounts
     useEffect(() =>{
