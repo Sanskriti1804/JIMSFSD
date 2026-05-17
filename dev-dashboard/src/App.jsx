@@ -6,6 +6,7 @@ import DeveloperForm from './components/DeveloperForm'
 import LoadingSpinner from "./components/LoadingSpinner"
 import ErrorMessage from "./components/ErrorMessage"
 import EmptyState from "./components/EmptyState"
+import { fetchDevelopersAndDomain } from './services/developerService';
 
 function App(){
 
@@ -25,28 +26,27 @@ function App(){
   //   ]
 //now in db.json 
 
+    const [loading, setLoading] = useState(true)
+    const [error, setError] = useState(null)  //null - no error
+
     //COMPONENT LIFECYCLE - runs ONCE after the component mounts
     useEffect(() =>{
-      console.log("Dashboard Loaded")
-
-      //stimulating api calls
-      setTimeout(() => {
+      async function loadDevelopers() {
         try{
-          setUsers(apiUsers)    //success response
+          const data = await fetchDevelopersAndDomain();
+          setUsers(data);
         }
         catch(err){
-          setError("Failed to fetch Developers")  //handle errors
+          setError("Failed to fetch developers")
         }
-        finally{
+         finally{
           setLoading(false)   //stops loading
         }
-      }, 2000)
-    }, [])
-  
+      }
+      loadDevelopers();
+    }, []);
 
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState(null)  //null - no error
-
+      
   
   function addDev(newUser){
     //prev users + new users 

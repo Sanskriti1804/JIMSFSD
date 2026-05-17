@@ -1,5 +1,5 @@
 //service layer = ui should not know api details - should be a seperate layer
-import api from "..api/axios";
+import api from "../api/axios";
 
 //api call function - handles backend communication
 //fetches dev data - domain data - merge them together - gives front ready data
